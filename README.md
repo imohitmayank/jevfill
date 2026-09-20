@@ -4,7 +4,7 @@ Chrome extension that autofills web forms from unstructured notes with [Jev](htt
 
 ## Demo
 
-<video src="assets/jevfill_demo.mp4" controls width="720"></video>
+![Jevfill demo](assets/jevfill_demo.gif)
 
 ## How it works
 
