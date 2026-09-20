@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jevfill Settings</title>
+    <link rel="stylesheet" href="../styles/shared.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Jevfill Settings</h1>
+      <p class="muted intro">
+        Configure your notes and API access. Jevfill matches freeform text to form
+        fields at fill time—no structured profile required.
+      </p>
+
+      <label for="notes">Notes</label>
+      <p class="muted">
+        Paste any personal details you want available for autofill—names, emails,
+        phone numbers, addresses, and more. Plain text is fine; no special formatting needed.
+      </p>
+      <textarea id="notes" rows="10" placeholder="Jane Doe&#10;jane@example.com&#10;555-0100&#10;742 Evergreen Terrace, Springfield"></textarea>
+
+      <label for="api-key">Jev API key</label>
+      <p class="muted">
+        Required to connect to Jev. Get a key from
+        <a href="https://www.typesafe.ai/" target="_blank" rel="noreferrer">TypeSafe AI</a>.
+      </p>
+      <input id="api-key" type="password" autocomplete="off" placeholder="sk-..." />
+
+      <label for="confidence">
+        Confidence threshold
+        <span id="confidence-value" class="muted"></span>
+      </label>
+      <p class="muted">
+        Only fill fields at or above this confidence level. Lower values fill more
+        fields; higher values reduce incorrect matches.
+      </p>
+      <input id="confidence" type="range" min="0" max="1" step="0.05" />
+
+      <button id="save-btn" type="button">Save settings</button>
+      <p id="status" class="status" aria-live="polite"></p>
+
+      <p class="privacy">
+        Your notes are stored locally on this device. When you autofill, field context
+        and your notes are sent to Jev (via TypeSafe AI). Password and payment
+        fields are never filled.
+      </p>
+    </main>
+    <script type="module" src="./options.ts"></script>
+  </body>
+</html>
