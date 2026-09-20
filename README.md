@@ -1,5 +1,11 @@
 # Jevfill
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-4285F4)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Powered by Jev](https://img.shields.io/badge/Powered%20by-Jev-blue)](https://www.typesafe.ai/)
+
 Chrome extension that autofills web forms from unstructured notes with [Jev](https://www.typesafe.ai/) (by TypeSafe AI). Paste your details once as plain text — no structured profile required — then fill forms on demand.
 
 ## Demo
