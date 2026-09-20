@@ -2,6 +2,10 @@
 
 Chrome extension that autofills web forms from unstructured notes with [Jev](https://www.typesafe.ai/) (by TypeSafe AI). Paste your details once as plain text — no structured profile required — then fill forms on demand.
 
+## Demo
+
+<video src="assets/jevfill_demo.mp4" controls width="720"></video>
+
 ## How it works
 
 1. Paste your personal details into the notes field in extension settings.
