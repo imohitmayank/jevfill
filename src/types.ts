@@ -35,7 +35,7 @@ export interface StorageData {
   confidenceThreshold?: number;
 }
 
-export const DEFAULT_CONFIDENCE_THRESHOLD = 0;
+export const DEFAULT_CONFIDENCE_THRESHOLD = 0.5;
 export const JEV_MODEL = "jev-1.13.0";
 export const MAX_NOTE_LINES = 255;
 
